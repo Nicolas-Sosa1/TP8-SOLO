@@ -38,6 +38,9 @@
             &nbsp;&nbsp;<asp:RegularExpressionValidator ID="revBuscar" runat="server" ControlToValidate="txtIdSucursal" ErrorMessage="Solo se permiten numeros" ForeColor="Black" ValidationExpression="^\d+$" ValidationGroup="1">*</asp:RegularExpressionValidator>
             <br />
             <br />
+            <asp:Label ID="lblMensaje" runat="server"></asp:Label>
+            <br />
+            <br />
             <asp:GridView ID="gvSucursales" runat="server" AutoGenerateColumns="False">
                 <Columns>
                     <asp:TemplateField HeaderText="ID_SUCURSAL">

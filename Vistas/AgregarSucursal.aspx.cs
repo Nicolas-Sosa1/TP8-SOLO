@@ -56,6 +56,7 @@ namespace Vistas
             txtNombreSucursal.Text = "";
             txtDescripcion.Text = "";
             txtDireccion.Text = "";
+            ddlProvincia.DataValueField = "0";
         }
 
         private void cargarProvincias()

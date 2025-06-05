@@ -56,9 +56,14 @@ namespace Vistas
                 gvSucursales.DataSource = tablaFiltrada;
                 gvSucursales.DataBind();
 
-                LimpiarCampos();
-
             }
+            else
+            {
+                lblMensaje.Text = "No se a encontrado el Id de esa sucursal";
+            }
+
+            LimpiarCampos();
+
         }
     }
 }
